@@ -1,5 +1,8 @@
 # Q4 2025 Earnings Report Presentation
 
+**Author:** 24f3004473@ds.study.iitm.ac.in  
+**Contact:** 24f3004473@ds.study.iitm.ac.in
+
 An interactive RevealJS presentation for quarterly financial earnings, featuring:
 
 - 📊 Financial metrics and performance analysis
