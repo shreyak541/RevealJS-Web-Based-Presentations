@@ -1,0 +1,28 @@
+SYNTAX HIGHLIGHTING CONFIGURATION
+==================================
+
+This presentation includes syntax highlighting for all code blocks.
+
+Configuration Details:
+- Library: Highlight.js (via RevealJS plugin)
+- Theme: Monokai
+- Languages Supported: Python, JavaScript, YAML
+- Features: Line numbers, progressive reveal, auto-highlighting
+
+Code Blocks with Syntax Highlighting:
+1. Python - Risk Assessment Framework (lines 1-26)
+2. JavaScript - Customer Analytics Pipeline (lines 1-23)
+3. YAML - Technology Infrastructure (lines 1-20)
+
+All code blocks use the following classes:
+- hljs (Highlight.js base class)
+- language-{lang} (Language identifier)
+- data-language attribute (Explicit language declaration)
+
+Syntax highlighting is enabled via:
+- Monokai CSS theme (plugin/highlight/monokai.css)
+- RevealHighlight plugin
+- Manual highlight initialization on Reveal 'ready' event
+- highlightOnLoad: true configuration
+
+Author: 24f3004473@ds.study.iitm.ac.in

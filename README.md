@@ -16,7 +16,7 @@ An interactive RevealJS presentation for quarterly financial earnings, featuring
 
 - **Interactive Elements**: Animated data visualizations and fragments
 - **Mathematical Equations**: KaTeX rendering for financial formulas
-- **Code Highlighting**: Python, JavaScript, and YAML examples
+- **Code Highlighting**: Syntax highlighting enabled for Python, JavaScript, and YAML examples using Highlight.js with Monokai theme
 - **Responsive Design**: Works on desktop and mobile devices
 - **Speaker Notes**: Press 'S' to open presenter view
 
