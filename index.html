@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Q4 2025 Earnings Report - Financial Institution</title>
+    <link rel="stylesheet" href="node_modules/reveal.js/dist/reveal.css" />
+    <link rel="stylesheet" href="node_modules/reveal.js/dist/theme/black.css" />
+    <link rel="stylesheet" href="node_modules/reveal.js/plugin/highlight/monokai.css" />
+    <link rel="stylesheet" href="css/custom.css" />
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <!-- Title Slide -->
+        <section data-background-gradient="linear-gradient(to bottom, #1e3a5f, #2c5f8d)">
+          <h1>Q4 2025 Earnings Report</h1>
+          <h3>Financial Performance & Strategic Outlook</h3>
+          <p style="margin-top: 50px; font-size: 0.8em;">
+            Prepared by: Technical Consultant<br />
+            Contact: <a href="mailto:24f3004473@ds.study.iitm.ac.in">24f3004473@ds.study.iitm.ac.in</a>
+          </p>
+          <p style="font-size: 0.6em; margin-top: 30px;">
+            <em>Confidential - For Stakeholder Review Only</em>
+          </p>
+          <aside class="notes">
+            Welcome everyone to our Q4 2025 earnings presentation. Today we'll review our financial performance,
+            key metrics, and strategic initiatives. The presentation includes interactive elements and detailed
+            financial analysis.
+          </aside>
+        </section>
+
+        <!-- Executive Summary (Markdown) -->
+        <section data-markdown>
+          <textarea data-template>
+            ## Executive Summary
+
+            ### Key Highlights Q4 2025
+
+            - **Revenue Growth**: 18% YoY increase
+            - **Net Profit**: $2.4B (↑ 22% from Q4 2024)
+            - **Total Assets**: $850B under management
+            - **Customer Satisfaction**: 94% rating
+            - **Digital Transformation**: 65% of transactions now digital
+
+            ---
+
+            ### Strategic Priorities
+
+            1. **Technology Innovation** - AI-driven analytics
+            2. **Market Expansion** - 5 new regional offices
+            3. **Risk Management** - Enhanced compliance framework
+            4. **Sustainability** - ESG-focused investment products
+          </textarea>
+          <aside class="notes">
+            Our Q4 performance exceeded expectations across all key metrics. Revenue grew 18% year-over-year,
+            driven by strong performance in our digital banking and wealth management divisions. Net profit reached
+            $2.4 billion, a 22% increase from the same quarter last year.
+          </aside>
+        </section>
+
+        <!-- Financial Metrics with Fragments -->
+        <section>
+          <h2>Financial Performance Breakdown</h2>
+          <div style="text-align: left; max-width: 800px; margin: 0 auto;">
+            <h3 class="fragment">Revenue Streams</h3>
+            <ul>
+              <li class="fragment fade-up">
+                <strong>Investment Banking:</strong> $1.2B (↑ 15%)
+              </li>
+              <li class="fragment fade-up">
+                <strong>Wealth Management:</strong> $850M (↑ 24%)
+              </li>
+              <li class="fragment fade-up">
+                <strong>Commercial Banking:</strong> $650M (↑ 12%)
+              </li>
+              <li class="fragment fade-up">
+                <strong>Digital Services:</strong> $420M (↑ 45%)
+              </li>
+            </ul>
+            <p class="fragment highlight-green" style="margin-top: 30px; font-size: 1.2em;">
+              <strong>Total Q4 Revenue: $3.12B</strong>
+            </p>
+          </div>
+          <aside class="notes">
+            Breaking down our revenue streams, we see exceptional growth across all sectors. Digital services
+            showed the highest growth at 45%, reflecting our successful digital transformation initiatives.
+            Wealth management also performed strongly with 24% growth.
+          </aside>
+        </section>
+
+        <!-- Code Sample: Risk Analysis Algorithm -->
+        <section>
+          <h2>Risk Assessment Framework</h2>
+          <p style="font-size: 0.8em;">Advanced analytics for portfolio risk management</p>
+          <pre><code class="python" data-line-numbers="1-2|4-7|9-12|14-16">
+import pandas as pd
+import numpy as np
+
+def calculate_portfolio_risk(returns, weights):
+    """Calculate Value at Risk (VaR) for portfolio"""
+    portfolio_returns = returns @ weights
+    return portfolio_returns
+
+def stress_test_scenarios(portfolio, scenarios):
+    """Run stress tests on portfolio"""
+    results = []
+    for scenario in scenarios:
+        impact = portfolio.apply_scenario(scenario)
+        results.append({
+            'scenario': scenario.name,
+            'expected_loss': impact.calculate_loss(),
+            'probability': scenario.probability,
+            'var_95': np.percentile(impact.returns, 5)
+        })
+    return pd.DataFrame(results)
+
+# Real-time risk monitoring
+risk_metrics = calculate_portfolio_risk(
+    returns=market_data,
+    weights=portfolio_weights
+)
+          </code></pre>
+          <aside class="notes">
+            Our new risk assessment framework uses advanced Python analytics to calculate Value at Risk
+            and run comprehensive stress tests. This code shows our portfolio risk calculation and
+            scenario-based stress testing methodology. We can analyze multiple risk scenarios in real-time.
+          </aside>
+        </section>
+
+        <!-- Mathematical Formulas -->
+        <section>
+          <h2>Key Financial Metrics</h2>
+          <div style="text-align: left; max-width: 900px; margin: 0 auto; font-size: 0.9em;">
+            <h3>Return on Equity (ROE)</h3>
+            \[ROE = \frac{Net\;Income}{Shareholders'\;Equity} = \frac{2.4B}{18.5B} = 12.97\%\]
+
+            <h3 class="fragment" style="margin-top: 40px;">Sharpe Ratio (Risk-Adjusted Return)</h3>
+            <div class="fragment">
+              \[Sharpe\;Ratio = \frac{R_p - R_f}{\sigma_p} = \frac{0.1297 - 0.045}{0.082} = 1.035\]
+              <p style="font-size: 0.8em; margin-top: 10px;">
+                Where \(R_p\) = Portfolio Return, \(R_f\) = Risk-Free Rate, \(\sigma_p\) = Standard Deviation
+              </p>
+            </div>
+
+            <h3 class="fragment" style="margin-top: 40px;">Capital Adequacy Ratio (CAR)</h3>
+            <div class="fragment">
+              \[CAR = \frac{Tier\;1\;Capital + Tier\;2\;Capital}{Risk\;Weighted\;Assets} = \frac{42B}{285B} = 14.7\%\]
+              <p style="font-size: 0.8em; color: #4CAF50; margin-top: 10px;">
+                ✓ Exceeds Basel III minimum requirement of 10.5%
+              </p>
+            </div>
+          </div>
+          <aside class="notes">
+            Our ROE of 12.97% demonstrates strong profitability relative to shareholder equity. The Sharpe ratio
+            of 1.035 indicates excellent risk-adjusted returns. Most importantly, our Capital Adequacy Ratio
+            of 14.7% significantly exceeds Basel III requirements, demonstrating our strong capital position
+            and financial stability.
+          </aside>
+        </section>
+
+        <!-- More Code: Data Analysis -->
+        <section>
+          <h2>Customer Analytics Pipeline</h2>
+          <pre><code class="javascript" data-line-numbers="1-3|5-10|12-18">
+// Real-time customer behavior analysis
+import { Analytics } from './analytics-engine';
+import { MachineLearning } from './ml-models';
+
+const customerSegmentation = async (customerData) => {
+  const features = extractFeatures(customerData);
+  const clusters = await MachineLearning.kMeans(features, {
+    k: 5,
+    maxIterations: 100
+  });
+  
+  return clusters.map((cluster, idx) => ({
+    segment: `Segment_${idx + 1}`,
+    size: cluster.customers.length,
+    avgLifetimeValue: calculateLTV(cluster.customers),
+    churnProbability: predictChurn(cluster.customers),
+    recommendedProducts: recommendProducts(cluster.profile)
+  }));
+};
+
+// Integration with real-time dashboard
+Analytics.stream('customer-segments')
+  .subscribe(segments => updateDashboard(segments));
+          </code></pre>
+          <aside class="notes">
+            This JavaScript code demonstrates our customer analytics pipeline. We use machine learning
+            for customer segmentation, calculating lifetime value, predicting churn, and providing
+            personalized product recommendations. This runs in real-time and integrates with our
+            executive dashboard.
+          </aside>
+        </section>
+
+        <!-- Animated Stack: Digital Transformation -->
+        <section>
+          <h2>Digital Transformation Journey</h2>
+          <div class="r-stack" style="height: 500px;">
+            <div class="fragment fade-out" data-fragment-index="0" style="background: #2c5f8d; padding: 50px; border-radius: 10px;">
+              <h3>2023: Foundation</h3>
+              <ul style="text-align: left; margin-top: 30px;">
+                <li>Legacy system assessment</li>
+                <li>Cloud infrastructure setup</li>
+                <li>Initial mobile app launch</li>
+              </ul>
+            </div>
+            <div class="fragment fade-in-then-out" data-fragment-index="0" style="background: #3a7ca5; padding: 50px; border-radius: 10px;">
+              <h3>2024: Acceleration</h3>
+              <ul style="text-align: left; margin-top: 30px;">
+                <li>AI chatbot deployment</li>
+                <li>Blockchain pilot programs</li>
+                <li>API ecosystem expansion</li>
+                <li>50% digital transaction rate</li>
+              </ul>
+            </div>
+            <div class="fragment fade-in" data-fragment-index="1" style="background: #4a90c5; padding: 50px; border-radius: 10px;">
+              <h3>2025: Leadership</h3>
+              <ul style="text-align: left; margin-top: 30px;">
+                <li>65% digital transactions</li>
+                <li>AI-powered risk management</li>
+                <li>Real-time fraud detection</li>
+                <li>Personalized wealth insights</li>
+                <li>Industry-leading mobile app (4.8★)</li>
+              </ul>
+            </div>
+          </div>
+          <aside class="notes">
+            Our digital transformation has progressed through three distinct phases. Starting in 2023 with
+            foundational work, we accelerated in 2024 with AI and blockchain initiatives. Now in 2025,
+            we've achieved 65% digital transaction rates and implemented cutting-edge AI-powered services.
+          </aside>
+        </section>
+
+        <!-- Complex Formula: Options Pricing -->
+        <section>
+          <h2>Derivatives Pricing Model</h2>
+          <div style="font-size: 0.85em;">
+            <h3>Black-Scholes Option Pricing</h3>
+            <div style="text-align: left; max-width: 800px; margin: 20px auto;">
+              \[C = S_0 N(d_1) - Ke^{-rT}N(d_2)\]
+              
+              <p style="margin-top: 20px;">Where:</p>
+              
+              \[d_1 = \frac{\ln(S_0/K) + (r + \sigma^2/2)T}{\sigma\sqrt{T}}\]
+              
+              \[d_2 = d_1 - \sigma\sqrt{T}\]
+              
+              <div class="fragment" style="margin-top: 30px; padding: 20px; background: rgba(76, 175, 80, 0.1); border-left: 4px solid #4CAF50;">
+                <p style="font-size: 0.9em; margin: 0;">
+                  <strong>Example Calculation:</strong><br/>
+                  \(S_0 = \$100\), \(K = \$105\), \(r = 0.05\), \(\sigma = 0.2\), \(T = 1\) year<br/>
+                  <strong>Call Option Price: $8.92</strong>
+                </p>
+              </div>
+            </div>
+          </div>
+          <aside class="notes">
+            Our derivatives desk uses sophisticated pricing models including Black-Scholes for options valuation.
+            This mathematical framework allows us to accurately price complex derivative instruments and
+            manage our hedging strategies effectively. The example shows a typical call option valuation.
+          </aside>
+        </section>
+
+        <!-- Market Performance -->
+        <section>
+          <h2>Market Position & Competitive Analysis</h2>
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px; margin-top: 40px;">
+            <div class="fragment">
+              <h3 style="color: #4CAF50;">Our Strengths</h3>
+              <ul style="text-align: left; font-size: 0.8em;">
+                <li>Market Cap: $85B (+12% YoY)</li>
+                <li>Customer Base: 45M (+8M new)</li>
+                <li>Digital Adoption: Industry-leading</li>
+                <li>Credit Rating: AA+</li>
+              </ul>
+            </div>
+            <div class="fragment">
+              <h3 style="color: #FF9800;">Growth Opportunities</h3>
+              <ul style="text-align: left; font-size: 0.8em;">
+                <li>Asian market expansion</li>
+                <li>Crypto custody services</li>
+                <li>Green finance products</li>
+                <li>B2B payment solutions</li>
+              </ul>
+            </div>
+          </div>
+          <div class="fragment" style="margin-top: 40px; padding: 20px; background: rgba(255, 193, 7, 0.1); border-radius: 8px;">
+            <p style="font-size: 0.9em; margin: 0;">
+              📊 <strong>Market Share:</strong> #3 in North America | #5 Globally | Target: Top 3 by 2027
+            </p>
+          </div>
+          <aside class="notes">
+            We've strengthened our market position significantly this quarter. Our market cap grew 12% to $85 billion,
+            and we added 8 million new customers. Our AA+ credit rating reflects our strong financial health.
+            Looking ahead, we're targeting expansion in Asian markets and developing new products in crypto
+            custody and green finance.
+          </aside>
+        </section>
+
+        <!-- Technology Stack -->
+        <section>
+          <h2>Technology Infrastructure</h2>
+          <pre><code class="yaml" data-line-numbers="1-5|7-12|14-18">
+# Cloud Infrastructure (AWS)
+compute:
+  - ec2_instances: 1200+
+  - auto_scaling: enabled
+  - regions: 12 worldwide
+
+# Data Architecture
+databases:
+  - postgresql: transactional data
+  - mongodb: customer profiles
+  - redis: real-time caching
+  - snowflake: data warehouse
+
+# Security & Compliance
+security:
+  - encryption: AES-256
+  - mfa: mandatory
+  - soc2_certified: true
+  - pci_dss_compliant: true
+  - iso27001: certified
+          </code></pre>
+          <aside class="notes">
+            Our technology infrastructure is built on AWS with over 1200 EC2 instances across 12 regions
+            worldwide. We use a polyglot persistence approach with PostgreSQL for transactions, MongoDB
+            for customer data, and Snowflake for analytics. All systems are SOC 2 and PCI DSS certified
+            with AES-256 encryption and mandatory multi-factor authentication.
+          </aside>
+        </section>
+
+        <!-- Risk Factors -->
+        <section data-markdown>
+          <textarea data-template>
+            ## Risk Management & Mitigation
+
+            ### Identified Risks Q4 2025
+
+            | Risk Category | Level | Mitigation Strategy |
+            |--------------|-------|---------------------|
+            | **Market Volatility** | Medium | Diversified portfolio, hedging strategies |
+            | **Cybersecurity** | High | 24/7 SOC, AI threat detection |
+            | **Regulatory Changes** | Medium | Compliance task force, legal advisors |
+            | **Credit Risk** | Low | Enhanced underwriting, ML models |
+            | **Operational Risk** | Low | Business continuity plans, redundancy |
+
+            ---
+
+            ### Compliance Highlights
+
+            - ✅ Basel III fully compliant
+            - ✅ GDPR & data privacy standards met
+            - ✅ Dodd-Frank stress tests passed
+            - ✅ Anti-money laundering (AML) systems upgraded
+          </textarea>
+          <aside class="notes">
+            Risk management remains a top priority. We've identified cybersecurity as our highest risk area
+            and have invested heavily in 24/7 security operations and AI-powered threat detection. We're
+            fully compliant with Basel III, GDPR, and passed all Dodd-Frank stress tests. Our enhanced
+            AML systems use machine learning to detect suspicious activities in real-time.
+          </aside>
+        </section>
+
+        <!-- Future Outlook -->
+        <section>
+          <h2>2026 Strategic Outlook</h2>
+          <div style="text-align: left; max-width: 850px; margin: 0 auto;">
+            <h3 class="fragment">Revenue Targets</h3>
+            <ul class="fragment">
+              <li>Total Revenue: $14B (+15% growth)</li>
+              <li>Digital Services: $2.5B (+60% growth)</li>
+              <li>International Revenue: 35% of total</li>
+            </ul>
+
+            <h3 class="fragment" style="margin-top: 30px;">Key Initiatives</h3>
+            <ol class="fragment">
+              <li><strong>AI Integration:</strong> Deploy GPT-powered financial advisor</li>
+              <li><strong>Sustainability:</strong> $10B green bond issuance</li>
+              <li><strong>Innovation Labs:</strong> Blockchain settlement system</li>
+              <li><strong>Customer Experience:</strong> Personalized banking app 2.0</li>
+            </ol>
+
+            <div class="fragment" style="margin-top: 30px; padding: 20px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 10px;">
+              <p style="font-size: 1.1em; margin: 0;">
+                <strong>Vision 2026:</strong> Become the most innovative and customer-centric financial institution
+              </p>
+            </div>
+          </div>
+          <aside class="notes">
+            Looking ahead to 2026, we're targeting $14 billion in total revenue with 15% growth. Digital services
+            will be our fastest-growing segment. Key initiatives include deploying an AI-powered financial advisor,
+            issuing $10 billion in green bonds, and launching a blockchain-based settlement system. Our vision
+            is to become the most innovative and customer-centric financial institution in the industry.
+          </aside>
+        </section>
+
+        <!-- Final Slide with Contact -->
+        <section data-background-gradient="linear-gradient(to bottom, #1e3a5f, #2c5f8d)">
+          <h2>Thank You</h2>
+          <h3 style="margin-top: 50px;">Questions & Discussion</h3>
+          <div style="margin-top: 60px; font-size: 0.9em;">
+            <p>
+              <strong>Technical Consultant</strong><br />
+              Financial Technology Division
+            </p>
+            <p style="margin-top: 20px;">
+              📧 <a href="mailto:24f3004473@ds.study.iitm.ac.in">24f3004473@ds.study.iitm.ac.in</a>
+            </p>
+            <p style="margin-top: 40px; font-size: 0.8em; opacity: 0.8;">
+              <em>Confidential - Q4 2025 Earnings Report</em>
+            </p>
+          </div>
+          <aside class="notes">
+            Thank you for your attention. I'm happy to take questions about any aspect of our Q4 performance,
+            strategic initiatives, or financial projections. Please feel free to reach out via email for
+            any follow-up discussions or detailed analysis requests.
+          </aside>
+        </section>
+      </div>
+    </div>
+
+    <script src="node_modules/reveal.js/dist/reveal.js"></script>
+    <script src="node_modules/reveal.js/plugin/notes/notes.js"></script>
+    <script src="node_modules/reveal.js/plugin/markdown/markdown.js"></script>
+    <script src="node_modules/reveal.js/plugin/highlight/highlight.js"></script>
+    <script src="node_modules/reveal.js/plugin/math/math.js"></script>
+    <script>
+      Reveal.initialize({
+        hash: true,
+        width: 1280,
+        height: 720,
+        margin: 0.04,
+        controls: true,
+        progress: true,
+        center: true,
+        transition: "slide",
+        transitionSpeed: "default",
+        plugins: [RevealMarkdown, RevealHighlight, RevealNotes, RevealMath.KaTeX],
+      });
+    </script>
+  </body>
+</html>
